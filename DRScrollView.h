@@ -47,7 +47,7 @@
  The delegate of DRScrollView is always point to itself. When you set delegate for
  DRScrollView, it will save it in this property and forward message to this delegate.
  */
-@property (nonatomic, weak, readonly, nullable) id <UIScrollViewDelegate> originalDelegate;
+@property (nonatomic, weak, readonly, nullable) id<UIScrollViewDelegate> originalDelegate;
 
 /**
  DRScrollView will preload some item views out of bounds. So we have not to
